@@ -1,11 +1,10 @@
-.container{
-    background-color: black;
+#container{
+    background-color: yellowgreen;
     height: 100vh;
     width: 98vw;
-    /* padding: 10px; */
 }
 
-.header {
+#header {
     background-color: white;
     width: 100%;
     height: auto;
@@ -14,26 +13,32 @@
 
 }
 
-.header-left {
+#header-left {
     width: auto;
     height: auto;
     display: flex;
+    align-items: center;
     padding: 0, 0, 0, 0;
 }
-.header-left >img{
+#header-left >img{
     margin-left: 10px;
     height: 59px;
     width:59px;
 }
-.header-left > h1{
+#header-left > h1{
     color: #195932;
-    font-size: 50px;
-    margin-left: 10px;
+    font-size: 35px;
+    margin: 0px 0px 0px 10px;
 }
-.header-middle {
+#header-middle {
     flex-grow: 1;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.header-right {
+#header-right {
     width: auto;
     height: auto;
     display: flex;
@@ -41,7 +46,7 @@
     justify-content: flex-end;   
     align-items: center;
 }
-.header-right > a > img{
+#header-right > a > img{
     /* margin-right: 10px; */
     height: 25px;
     /* width:auto; */
@@ -79,3 +84,39 @@ a {
         justify-content: space-around;
         align-items: center
         }
+
+#body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 0px 30px;
+}
+
+.body-box{
+    height: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub-box{
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.body-img{
+    height: auto ;
+    width:100%;
+    border: 30px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
