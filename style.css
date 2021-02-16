@@ -96,11 +96,16 @@ a {
 }
 
 .body-box{
-    background-color: purple;
     height: auto;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+.bod-1{
+    background-color:blueviolet;
+}
+.bod-2{
+    background-color: aqua;
 }
 
 .sub-box{
