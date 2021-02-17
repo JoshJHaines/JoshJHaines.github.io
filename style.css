@@ -115,7 +115,12 @@ a {
     flex-direction: column;
     justify-content: center, space-evenly;
     align-items: center;
-    margin: 5px;
+}
+
+.verbage {
+    margin: 0, 0, 0, 0;
+    border: 0, 0, 0, 0;
+    padding: 0, 0, 0, 0;
 }
 
 .body-img{
