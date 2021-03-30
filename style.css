@@ -9,7 +9,7 @@
 }
 
 #header {
-    background-color: yellow;
+    background-color: white;
     width: 100%;
     height: auto;
     display: flex;
@@ -104,6 +104,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    padding: 5px, 0px, 5px, 0px
 }
 .bod-1{
     background-color:blueviolet;
@@ -147,4 +148,10 @@ p {
 
 .verbage > a {
     margin: 10px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    height: 10vh;
 }
