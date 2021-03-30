@@ -107,10 +107,10 @@ a {
     padding: 5px, 0px, 5px, 0px
 }
 .bod-1{
-    background-color:blueviolet;
+    background-color:#195932;
 }
 .bod-2{
-    background-color: aqua;
+    background-color: #7f8388;
 }
 
 .sub-box{
@@ -134,6 +134,7 @@ a {
     width: 100%;
     border: 30px;
     margin: 20px;
+    padding: 10px;
     justify-content: center, space-evenly;
     align-items: center;
 }
