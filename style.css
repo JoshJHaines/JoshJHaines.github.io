@@ -136,3 +136,15 @@ a {
     justify-content: center, space-evenly;
     align-items: center;
 }
+
+h2 {
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+.verbage > a {
+    margin: 10px;
+}
